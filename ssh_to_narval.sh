@@ -1,5 +1,6 @@
 ### This is how to use this script:
 ### bash ssh_narval.sh -n {node assigned}
+### use with bash alias: joc {node assigned}
 while getopts n: flag
 do
     case "${flag}" in
