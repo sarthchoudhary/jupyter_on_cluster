@@ -1,3 +1,5 @@
+### This is how to use this script:
+### bash ssh_narval.sh -n {node assigned}
 while getopts n: flag
 do
     case "${flag}" in
